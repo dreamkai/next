@@ -1,6 +1,8 @@
 import { listProducts } from "@/lib/products";
 import { ProductTable } from "@/components/products/product-table";
 
+export const dynamic = "force-dynamic";
+
 export default async function AboutPage() {
   const products = await listProducts();
 
