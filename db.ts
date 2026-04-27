@@ -9,7 +9,7 @@ const { DATABASE_URL, DB_HOST, DB_PORT, DB_USER, DB_PASSWORD, DB_NAME } = proces
 const databaseUrl =
   // DATABASE_URL ??
   // `mysql://${DB_USER ?? "root"}:${DB_PASSWORD ?? "123456"}@${DB_HOST ?? "localhost"}:${DB_PORT ?? "3306"}/${DB_NAME ?? "my_app"}`;
-  'mysql://root:lorEIeDwoFWtLSLKwepdateboaaTiaHS@mysql.railway.internal:3306/railway'
+  'mysql://root:lorEIeDwoFWtLSLKwepdateboaaTiaHS@shortline.proxy.rlwy.net:30689/railway?sslaccept=strict'
 
 const adapter = new PrismaMariaDb(databaseUrl);
 
